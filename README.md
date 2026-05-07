@@ -21,5 +21,5 @@ This repository contains the **Pilot Study** phase of an ongoing research projec
 - **Roadmap**: The next phase will transition from provincial aggregates to **household-level microdata** to increase statistical power and resolve latent protective effects.
 
 ## 👤 Author
-**Romuald Guédé, PhD**
+**Romuald Guédé, **
 [GitHub: romualdguede](https://github.com/romualdguede)
