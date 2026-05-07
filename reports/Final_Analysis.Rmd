@@ -1,0 +1,35 @@
+---
+title: "Financial Literacy and Provincial Indebtedness"
+subtitle: "Pilot Study: Methodological Framework and Identification Audit"
+author: "Romuald GUEDE, PhD"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: cosmo
+    toc: true
+    code_folding: hide
+---
+
+## 1. Executive Summary (Pilot Phase)
+This report presents the methodological foundations for evaluating the literacy-debt nexus in Canada. [cite_start]While current results indicate a neutral marginal effect at the provincial aggregate level (N=49), diagnostic audits confirm the necessity of the implemented IV-identification strategy[cite: 411, 419, 421].
+
+## 2. Econometric Identification
+The pilot identifies significant endogeneity in financial literacy.
+
+### 2.1 Diagnostic Tests
+- [cite_start]**Wu-Hausman Test**: p < 0.001 (Confirms OLS is inconsistent; IV is required)[cite: 421].
+- [cite_start]**Weak Instrument Test**: p = 0.0658 (Borderline; addressed via LIML)[cite: 421].
+
+### 2.2 Model Performance
+[cite_start]The current OLS baseline yields an Adjusted R^2 of -0.033, suggesting that provincial-level averages do not yet capture the complexity of household financial behavior[cite: 419].
+
+## 3. Probabilistic Risk & Policy Simulation
+[cite_start]Using a **Firth-Robust Logit** model, we estimated the probability of over-indebtedness[cite: 413, 417].
+
+- [cite_start]**Literacy Coefficient**: 3.93 \times 10^{-6} (p = 0.69)[cite: 417].
+- [cite_start]**Policy Simulation**: A 10% increase in national literacy levels currently predicts a 0% reduction in risk at this level of aggregation[cite: 413].
+
+## 4. Conclusion & Next Steps
+[cite_start]This pilot successfully established a reproducible pipeline and confirmed the endogeneity of the primary regressor[cite: 421]. To achieve statistical significance, the study will now scale to household-level microdata.
+
+***Reproducibility Note**: Generated via Master-Orchestrator.R.*

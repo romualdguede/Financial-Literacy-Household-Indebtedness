@@ -1,0 +1,22 @@
+# Fichiers temporaires et de session
+.quarto/
+.RData
+.Rhistory
+.Rproj.user
+.RDataTmp
+.DS_Store
+_site/
+.ipynb_checkpoints/
+
+# Dossiers de résultats et données volumineuses
+outputs/
+Others/
+docs/
+data/
+
+# Scripts privés (RG Data & Finance)
+01_Setup_and_data-acquisition.R
+02_Cleaning_and_Segmentation.R
+05_Synthesis_Policy_Simulation.R
+06_Final_Report_Generation.R
+MASTER-Orchestrator.R

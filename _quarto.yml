@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Financial Literacy & Household Indebtedness"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-fold: true
+  pdf:
+    documentclass: report
+    toc: true
